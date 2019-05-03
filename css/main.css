@@ -1,0 +1,206 @@
+/***** BASE STYLES *****/
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #184c80;
+}
+
+#about, #contact {
+    height: 600px;
+}
+
+h2 {
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    font-size: 36px;
+}
+
+h3 {
+    font-size: 24px;
+    line-height: 32px;
+}
+
+
+
+/***** GRID *****/
+
+.full-width {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.half-width {
+    width: 600px;
+    float: left;
+}
+
+.third-width {
+    width: 400px;
+    float: left;
+}
+
+
+/***** HEADER *****/
+
+header {
+    height: 700px;
+    background: url('../img/kindness-background.jpg');
+    background-color: #cab8fa; 
+    background-size: cover;
+}
+
+header h1 { 
+    font-family: "Lucida Console", Monaco, monospace;
+    font-size: 30px;
+    font-weight: lighter;
+    color: #2169b0;
+    padding: 65px 0 65px 25px;
+    text-transform: uppercase;
+}
+
+nav {
+    float: right; 
+    padding: 75px 25px;
+}
+nav ul li{
+    display: inline-block;
+}
+nav ul li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 18px;
+    color: #2169b0;
+    padding-left: 80px; 
+}
+
+header h2 {
+    width: 80%;
+    clear: both;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    font-size: 72px;
+    line-height: 80px;
+    color: #2c89e5;
+    padding: 20px 0 20px 25px;
+}
+header h2 span {
+    color: #184c80;
+}
+
+
+
+/***** ABOUT *****/
+
+#about .full-width {
+    padding: 80px 0;
+}
+
+
+#about h2 {
+    padding-left: 50px;
+}
+ 
+#about p {
+    font-size: 21px;
+    color: #555555;
+    line-height: 40px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+
+/***** PORTFOLIO *****/
+
+#portfolio .full-width {
+    background: #e4dcfa;
+    overflow: auto;
+    padding: 25px 0;
+    text-align: center;
+    clear: both;
+}
+ 
+#portfolio img {
+    border: 2px solid #184c80;
+    border-radius: 4px;
+    max-width: 320px;
+    height: 210px;
+    margin-bottom: 15px;
+}
+
+#portfolio img:hover {
+    border: 2px solid #777777;
+}
+
+#portfolio a {
+    color: #184c80;
+    font-size: 24px;
+    margin: 0 auto;
+    text-decoration: none;
+}
+
+#portfolio a:hover {
+    color: #777777;
+}
+ 
+#portfolio p {
+    color: #555555;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+
+
+/***** CONTACT *****/
+
+#contact .full-width {
+    background: #ebebeb;
+    overflow: auto;
+    padding: 110px 0;
+}
+
+#contact-img {
+    margin-left: 25px;
+    border: 12px solid #ffffff;
+}
+
+#contact h2, #contact #email-header, #contact #socialmedia-header, #contact ul {
+    padding-left: 115px;
+}
+#contact #envelope {
+    padding: 0 10px 0 115px;
+}
+
+#contact h2 {
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    font-size: 36px;
+    line-height: 44px;
+}
+#contact #email-header {
+    color: #555555;
+    font-size: 24px;
+    font-weight: lighter;
+    line-height: 44px;
+    margin: -30px 0 5px 0;
+}
+#contact #socialmedia-header {
+    font-weight: bold;
+    line-height: 44px;
+    margin: 40px 0 0 0;
+}
+
+#contact a {  
+    text-decoration: none;
+    color: #c49075;
+    font-weight: bold;
+    font-size: 26px;
+}
+
+#contact ul {
+    list-style: none;
+}
+#contact ul li {
+     display: inline-block;
+}
+#contact ul img {
+    font-size: 32px;
+    padding-right: 48px;
+}
