@@ -36,6 +36,7 @@ h3 {
 .half-width {
     width: 600px;
     float: left;
+    margin-bottom: 70px;
 }
 
 .third-width {
